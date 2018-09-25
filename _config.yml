@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Suku Wc
+name: EE: Suku
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Zen Garden of Engineer Suku
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -21,11 +21,11 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
-  instagram:
-  linkedin:
+  github: SukuWc
+  instagram: https://www.instagram.com/sukuwc/
+  linkedin: https://www.linkedin.com/in/soveny/
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: RSS
   twitter: jekyllrb
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
   youtube: # channel/<your_long_string> or user/<user-name>
