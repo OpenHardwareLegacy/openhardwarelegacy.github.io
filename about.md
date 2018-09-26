@@ -1,15 +1,21 @@
+
 ---
 layout: page
 title: About
 permalink: /about/
 ---
 Name: Sövény Gergely Máté
+
 Age: 23
+
 X,Y: Budapest, Hungary
+
 Coffee: Yes please!
 
 Hardware design engineer: Yes
+
 Firmware developer: Yes
+
 TV repair technician: No
 
 ### More Information
