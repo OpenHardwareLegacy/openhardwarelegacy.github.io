@@ -3,13 +3,19 @@ layout: page
 title: About
 permalink: /about/
 ---
+Name: Sövény Gergely Máté
+Age: 23
+X,Y: Budapest, Hungary
+Coffee: Yes please!
 
-Some information about you!
+Hardware design engineer: Yes
+Firmware developer: Yes
+TV repair technician: No
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I'm currently working on the development of the Intech Grid: a seamlessly extendible modular MIDI controller solution.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[soveny@intech.studio](mailto:soveny@intech.studio)
