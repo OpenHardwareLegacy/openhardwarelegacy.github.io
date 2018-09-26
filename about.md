@@ -1,9 +1,9 @@
-
 ---
 layout: page
 title: About
 permalink: /about/
 ---
+
 Name: Sövény Gergely Máté
 
 Age: 23
