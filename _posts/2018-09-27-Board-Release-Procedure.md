@@ -11,22 +11,25 @@ All of the boards I desing and/or superwise at Intech follow this standard. (Sin
 This document is tailored to be used with the PCB package Proteus Professional. 
 
 ```
-### Instructions ###
+> Instructions
 EXECUTE IN ORDER STARTING FROM STEP 1.
-### Check ###
+
+> Check 
 1. Use global anotator to reanotate the whole design (Total)
 2. Check ERC of the schematic
 3. Regenerate all copper fills.
 4. Check Copper fill clearances.
 5. Check PCB Stackup
 6. Check High-speed differential routing and impedance.
-### Export ###
+
+> Export 
 1. Generate Screenshot of 3D Board View into '/Render' folder. (min. Top & Bottom)
 2. Generate PDF Artwork of PCB View into '/Render' folder. 
 3. Run Pre-Production Check! 
 (Errors and Warnings are not allowed under any circumstances without added documentation)
 4. Generate Gerber files into '/Gerber' folder.
-### Verify ###
+
+> Verify 
 1. Check Gerber files individually in Gerber Viewer.
 2. Send the gerber files out to the manufacturer.
 3. Generate archive containing '/Gerber', '/Render' & '/Source' folders.
