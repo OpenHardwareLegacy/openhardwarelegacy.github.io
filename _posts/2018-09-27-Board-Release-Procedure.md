@@ -9,6 +9,8 @@ Here I included my BRP as reference.
 All of the boards I desing and/or superwise at Intech follow this standard. (Since 2017)
 This document is tailored to be used with the PCB package Proteus Professional. 
 
+<!--more-->
+
 ```
 **Instructions**
 EXECUTE IN ORDER STARTING FROM STEP 1.
