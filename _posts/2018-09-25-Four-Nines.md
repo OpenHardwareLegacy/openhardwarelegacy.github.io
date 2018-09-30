@@ -5,6 +5,6 @@ title: "Four nines"
 
 I think that every hardware design engineer (and software developer) should aim to meet these standards!
 
-Check out this very insightful episode of The Amp Hour podcast ([Episode #407](https://theamphour.com/407-gregory-charvat-and-three-new-companies/)) where Chriss Gammell and Gregory Charvat discust factory atomation and industrial sensors among other things.
+Check out this very insightful episode of The Amp Hour podcast ([Episode #407](https://theamphour.com/407-gregory-charvat-and-three-new-companies/)) where Chris Gammell and Gregory Charvat discust factory atomation and industrial sensors among other things.
 
 ![The Amp Hour episod #407](https://theamphour.com/wp-content/uploads/2018/09/GregCharvatHumatics-242x300.jpg "Gregory Charvat")
