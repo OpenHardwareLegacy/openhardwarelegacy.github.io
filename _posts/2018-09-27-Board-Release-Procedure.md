@@ -1,16 +1,15 @@
 ---
 title: "Board Release Procedure"
-excerpt_separator: <!--more-->
 ---
 A Board Release Procedure helps you to avoid mistakes when finishing a PCB design and ensures the proper archiving of the source files.
 
 Robert Feranic from Fedevel Academy has a [great video on Youtube](https://www.youtube.com/watch?v=ZpMvKJzZk90) explaining in more detail.
 
+<!--more-->
+
 Here I included my BRP as reference. 
 All of the boards I desing and/or superwise at Intech follow this standard. (Since 2017)
 This document is tailored to be used with the PCB package Proteus Professional. 
-
-<!--more-->
 
 ```
 **Instructions**
