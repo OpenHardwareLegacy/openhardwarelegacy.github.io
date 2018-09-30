@@ -9,12 +9,18 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
       <div class="entry">
+         
+        {% if post.content contains '<!--more-->' %}
+          {{ post.content | split:'<!--more-->' | first }}
+        {% else %}
+          {{ post.excerpt }}
+        {% endif %}
         
-        {{ post.excerpt }}
-              
       </div>
    
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      {% if post.content contains '<!--more-->' %}  
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      {% endif %}
       
     </article>
   {% endfor %}
