@@ -15,6 +15,9 @@ avatar: https://github.com/SukuWc/sukuwc.github.io/raw/master/images/suku2.jpg
 # Flags below are optional
 #
 
+
+excerpt_separator: <!--more-->
+
 # Includes an icon in the footer for each username you enter
 footer-links:
   dribbble:
