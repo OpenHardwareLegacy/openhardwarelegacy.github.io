@@ -1,5 +1,7 @@
 ---
 title: GitExtensions - The last Git GUI you will ever need
+categories: [Blog]
+tags: [Blog, Review, OpenSource]
 ---
 [GitExtensions](http://gitextensions.github.io/) is a free and open source GUI for the popular source-control solution Git. 
 
