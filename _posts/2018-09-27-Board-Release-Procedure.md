@@ -1,5 +1,7 @@
 ---
 title: "Board Release Procedure"
+categories: [Blog, Internal]
+tags: [Blog, Internal]
 ---
 A Board Release Procedure helps you to avoid mistakes when finishing a PCB design and ensures the proper archiving of the source files.
 
