@@ -1,5 +1,7 @@
 ---
 title: "Four nines"
+categories: [Blog]
+tags: [Blog, Quotes]
 ---
 "The industry requires 99.99% accuracy. So we can accept 0.01% error, but we prefer even that not to happen."
 
