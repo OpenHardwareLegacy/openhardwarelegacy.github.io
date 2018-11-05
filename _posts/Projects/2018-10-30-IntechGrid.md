@@ -8,7 +8,7 @@ The development is still in progress. After the pre-order period, the design fil
 
 ![Photo of the Intech Grid](https://intech.studio/res/image.php?fname=kXtthX.jpg)
 
-I'm responsible for...
+I've been involved with the development of the Intech Grid since its conception in 2015. I'm responsible for hardware development and manufacturability - overseeing the following areas:
 
 - Electrical Design
 - Mechanical Design
