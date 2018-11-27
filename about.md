@@ -9,7 +9,7 @@ Name: Sövény Gergely Máté
 
 Age: 23
 
-X,Y: Budapest, Hungary
+Z,θ: Budapest, Hungary
 
 Coffee: Yes please!
 
