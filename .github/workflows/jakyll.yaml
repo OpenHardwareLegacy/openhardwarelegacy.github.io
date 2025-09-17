@@ -1,0 +1,48 @@
+name: Jekyll site CI
+
+on:
+  push:
+    branches:
+      - main   # or "master", whichever your default branch is
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1' # Jekyll works well with 3.1+
+          bundler-cache: true
+
+      - name: Install Jekyll & plugins
+        run: |
+          gem install jekyll bundler
+          gem install jekyll-spaceship
+
+      - name: Build site
+        run: jekyll build --trace
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
