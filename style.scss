@@ -204,8 +204,10 @@ img {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
+  max-width: 50%;
 
   @include mobile {
+	max-width: none;
     margin: 3px 0;
   }
 }
