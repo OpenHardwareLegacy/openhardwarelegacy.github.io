@@ -25,8 +25,8 @@ Open Hardware Legacy is a an archive for liberated design files, alternate or re
 
 Some great projects end up ultimately failing in the free market, but existing users have the right to enjoy, modify and repair their devices. My mission is to achive and celebrate the work done by the original designers, enable users to use their product after it has been stoped being supported, and educate engineers and product developers on responsible product lifecycle practices. 
 
-### Diagram test 1234
-```mermaid!
+### Diagram test 12345
+```mermaid
 pie title Pets adopted by volunteers
   "Dogs" : 386
   "Cats" : 85
