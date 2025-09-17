@@ -37,7 +37,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: _site/ # Directory to upload
           server-dir: / # Path on the FTP server where files will be uploaded
-          port: 22 # Change to your secure port if different
+          port: 21 # Change to your secure port if different
           protocol: ftps # Use 'ftp' for standard FTP or 'ftps' for secure FTP
 
       - name: Upload artifact
