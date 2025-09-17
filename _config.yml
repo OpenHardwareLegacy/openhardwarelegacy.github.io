@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: "EE: Suku"
+name: "Open Hardware Legay"
 
 # Short bio or description (displayed in the header)
-description: Zen Garden of Engineer Suku
+description: Document and preserve the designs of discontinued hardware! (e.g., tear-down photos, open schematics, alternate firmware, manufacturing documentation etc.).
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://github.com/SukuWc/sukuwc.github.io/raw/master/images/suku2.jpg
