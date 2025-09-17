@@ -1,6 +1,7 @@
 name: Jekyll site CI
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main   # or "master", whichever your default branch is
