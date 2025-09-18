@@ -15,11 +15,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Preprocess Mermaid Diagrams
-        run : |
-          ls
-          find . -type f -name "*.md" -exec sed -i 's/```mermaid/```mermaid!/g' {} +
-
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:

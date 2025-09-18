@@ -90,3 +90,7 @@ exclude:
 
 plugins:
   - jekyll-spaceship
+  
+string_replacements:
+  - old: "```mermaid"
+    new: "```mermaid!"
