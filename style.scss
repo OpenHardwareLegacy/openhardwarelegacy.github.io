@@ -157,20 +157,22 @@ img {
 .masthead {
   padding: 20px 0;
   border-bottom: 1px solid $lightGray;
+  display: flex;
+  align-items: center;
 
   @include mobile {
+    display: block;
     text-align: center;
   }
 }
 
 .site-avatar {
-  float: left;
-  width: 70px;
-  height: 70px;
+  white-space: nowrap;
+  width: 100px;
+  height: 100px;
   margin-right: 15px;
 
   @include mobile {
-    float: none;
     display: block;
     margin: 0 auto;
   }
@@ -181,8 +183,7 @@ img {
 }
 
 .site-info {
-  float: left;
-  overflow: hidden;
+  flex: 1;
 
   @include mobile {
     float: none;
@@ -212,7 +213,7 @@ img {
 }
 
 nav {
-  float: right;
+  white-space: nowrap;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
