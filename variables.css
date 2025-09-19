@@ -1,0 +1,19 @@
+
+/* ===================== VARIABLES ===================== */
+
+
+:root {
+  /* Colors */
+  --blue: #4183C4;
+  --black: #000;
+  --darker-gray: #222;
+  --dark-gray: #333;
+  --gray: #666;
+  --light-gray: #eee;
+  --white: #fff;
+
+  /* Font stacks */
+  --helvetica: Helvetica, Arial, sans-serif;
+  --helvetica-neue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
