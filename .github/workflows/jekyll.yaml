@@ -24,7 +24,7 @@ jobs:
         run: bundle install
 
       - name: Build site
-        run: jekyll build --trace
+        run: bundle exec jekyll build --trace
 
       - name: Deploy to FTP Server
         uses: SamKirkland/FTP-Deploy-Action@4.1.0
