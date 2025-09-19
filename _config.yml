@@ -71,11 +71,6 @@ kramdown:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
 # Exclude these files from your production _site
 exclude:
   - Gemfile
@@ -85,6 +80,8 @@ exclude:
   - CNAME
 
 plugins:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-spaceship
   
 string_replacements:
