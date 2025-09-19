@@ -5,7 +5,6 @@ on:
   push:
     branches:
       - main   # or "master", whichever your default branch is
-  pull_request:
 
 jobs:
   build:
