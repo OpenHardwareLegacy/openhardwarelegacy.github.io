@@ -13,14 +13,14 @@ RUN apt-get update -qq && \
 # Set work directory inside the container
 WORKDIR /srv/jekyll
 
-# Install Jekyll and plugins
-RUN gem install jekyll bundler jekyll-spaceship
+# Copy Gemfile and Gemfile.lock first (for better caching)
+COPY Gemfile Gemfile.lock* ./
+
+# Install Ruby gems via Bundler
+RUN bundle install
 
 # Expose Jekyll’s default server port
 EXPOSE 4000
 
-# Volume mount your site source when running
-VOLUME /srv/jekyll
+# Volume mount your site source when
 
-# Default command: serve the site (hot reload for local dev)
-CMD ["jekyll", "serve", "--host", "0.0.0.0", "--livereload"]

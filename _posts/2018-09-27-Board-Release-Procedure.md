@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Board Release Procedure"
 categories: [Blog, Internal]
 tags: [Blog, Internal]

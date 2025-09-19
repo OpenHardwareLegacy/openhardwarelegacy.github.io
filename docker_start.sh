@@ -16,4 +16,5 @@ fi
 $CONTAINER_TOOL run $ARGS --rm -it \
   -p 4000:4000 -p 35729:35729 \
   -v $(pwd):/srv/jekyll \
-  my-jekyll
+  my-jekyll \
+  bundle exec jekyll serve --host 0.0.0.0 --livereload
