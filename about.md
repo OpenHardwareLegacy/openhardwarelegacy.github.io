@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ### Bio
 
-Name: Sövény Gergely Máté
+Name: Sövény Gergely Máté (aka. @SukuWc)
 
 Z,θ: Budapest, Hungary
 
@@ -19,13 +19,13 @@ TV repair technician: No
 
 ### More Information
 
-For the past 7 years I have been working on the development of the Intech Grid: a seamlessly extendible modular MIDI controller solution. Doring this time I have worked on multiple other hardware project both as a design engineer and a tech advisor.
+For the past 7 years I have been working on the development of the Intech Studio Grid: a seamlessly extendible modular MIDI controller solution. During this time I have worked on multiple other hardware project both as a design engineer and a tech advisor.
 
-Open Hardware Legacy is a an archive for liberated design files, alternate or reverse engineerd firmware and all things necessery to maintain end-of-life hardware projects.
+Open Hardware Legacy is an archive for liberated design files, alternate or reverse engineered firmware and all things necessary to maintain end-of-life hardware projects.
 
-Some great projects end up ultimately failing in the free market, but existing users have the right to enjoy, modify and repair their devices. My mission is to achive and celebrate the work done by the original designers, enable users to use their product after it has been stoped being supported, and educate engineers and product developers on responsible product lifecycle practices. 
+Some great projects end up ultimately failing in the free market, but existing users have the right to enjoy, modify and repair their devices. My mission is to archive and celebrate the work done by the original designers, enable users to use their product after it has been stopped being supported, and educate engineers and product developers on responsible product lifecycle practices. 
 
-### Diagram test foo 12345
+### Diagram
 ```mermaid
 pie title Pets adopted by volunteers
   "Dogs" : 386
