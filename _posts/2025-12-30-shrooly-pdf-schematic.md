@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Shrooly SH1 DVT Prototype PDF Schematics"
 categories: [Blog]
 tags: [Blog, Shrooly]

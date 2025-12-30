@@ -1,4 +1,5 @@
 ---
+layout: post
 title: GitExtensions - The last Git GUI you will ever need
 categories: [Blog]
 tags: [Blog, Review, OpenSource]

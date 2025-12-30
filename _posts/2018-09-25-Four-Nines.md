@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Four nines"
 categories: [Blog]
 tags: [Blog, Quotes]

@@ -270,3 +270,77 @@ footer {
   text-align: center;
 }
 
+/* Tags styling */
+.tags {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.tags-label {
+  color: var(--gray);
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.tag {
+  display: inline-block;
+  background-color: var(--light-gray);
+  color: var(--dark-gray);
+  padding: 4px 12px;
+  margin: 4px 4px 4px 0;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 13px;
+  transition: background-color 0.2s;
+}
+
+.tag:hover {
+  background-color: var(--blue);
+  color: var(--white);
+}
+
+/* Tags page styling */
+.tags-page h2 {
+  margin-top: 30px;
+  padding-top: 10px;
+  border-top: 1px solid var(--light-gray);
+}
+
+.tags-page h2:first-child {
+  border-top: none;
+  margin-top: 0;
+}
+
+.tag-count {
+  font-size: 18px;
+  color: var(--gray);
+  font-weight: normal;
+}
+
+.tag-posts {
+  list-style: none;
+  padding-left: 0;
+}
+
+.tag-posts li {
+  margin: 10px 0;
+  padding: 8px 0;
+  border-bottom: 1px dotted var(--light-gray);
+}
+
+.tag-posts li:last-child {
+  border-bottom: none;
+}
+
+.tag-posts a {
+  font-weight: 500;
+}
+
+.post-date {
+  color: var(--gray);
+  font-size: 14px;
+  margin-left: 10px;
+  font-style: italic;
+}
+
