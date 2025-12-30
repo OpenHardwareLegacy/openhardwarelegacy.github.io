@@ -1,5 +1,5 @@
 # Use official Ruby image (same base as GitHub runner for consistency)
-FROM ruby:3.1
+FROM docker.io/library/ruby:3.1
 
 # Install dependencies for Jekyll (Node.js, npm, build tools, etc.)
 RUN apt-get update -qq && \
