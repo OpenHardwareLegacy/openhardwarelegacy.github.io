@@ -9,7 +9,7 @@ name: "Open Hardware Legacy"
 description: Document and preserve the designs of discontinued hardware! (e.g., tear-down photos, open schematics, alternate firmware, manufacturing documentation etc.).
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://github.com/SukuWc/sukuwc.github.io/raw/master/images/suku2.jpg
+avatar: /images/logo.png
 
 #
 # Flags below are optional

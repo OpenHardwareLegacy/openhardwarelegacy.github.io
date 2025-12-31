@@ -153,8 +153,8 @@ img {
 
 .site-avatar {
   white-space: nowrap;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: auto;
   margin-right: 15px;
 
   @media (max-width: 640px) {
@@ -163,6 +163,7 @@ img {
   }
 
   img {
+    display: block;
     border-radius: 5px;
   }
 }
