@@ -4,7 +4,7 @@ title: "Shrooly SH1 DVT Prototype PDF Schematics"
 categories: [Blog]
 tags: [Blog, Shrooly]
 ---
-![shrooly](/files/shrooly.jpg)
+![shrooly](/files/shrooly.png)
 ## The files
 Here are the original schematics for the three main PCBs from the Shrooly SH1 Smart Mushroom Growing device.
 
