@@ -2,7 +2,7 @@
 layout: post
 title: "ESP32-S3 OpenOCD JTAG using FT4232H"
 categories: [Blog]
-tags: [Blog, Shrooly]
+tags: [Blog, Debugging, OpenSource]
 ---
 ![debugging](/files/ft4232h_esp32s3.jpg)
 
